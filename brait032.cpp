@@ -553,7 +553,7 @@ void NRWindow::CallBackKeyboardFunc(unsigned char key, int mx, int my)
     Window->StopMoving(glutMaster);   // stop idle function
     break;
   }
-  //glutPostRedisplay();
+  glutPostRedisplay();// should not need to do this, but if missing then it does not refresh. 
   NRWindow::CallBackDisplayFunc();
 }
 
