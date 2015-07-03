@@ -4,7 +4,7 @@ Sensory motor simulation of neuron controlled wheeled vehicles
 
 You are welcome to modify and use this code for non-commercial
 purposes providing you credit the origin (a web address is 
-sufficient <>http://www.rdg.ac.uk/~shshawin/LN eg<endu>). If you make any clever
+sufficient http://www.rdg.ac.uk/~shshawin/LN ). If you make any clever
 changes and are happy for these to be published on the web please let
 me know so that I can update the program.  
 
@@ -40,17 +40,17 @@ g++ brait032.cpp nrWindow.cpp glutMaster.cpp glutWindow.cpp  -L/usr/local/lib  -
 ** Compiling under Microsoft windows and VisualC++
 
 Microsoft windows supports openGL but you will need to also install
-GLUT or Freeglut. These provide \verb|glut.h, glut32.lib| as well as the
-runtime \verb|Glut32.dll|. Freeglut provides in addition, 
-\verb|freeglut.h, freeglut_ext.h, freeglut_std.h, freeglut.lib|, and \verb|freeglut.dll|.
+GLUT or Freeglut. These provide glut.h, glut32.lib as well as the
+runtime Glut32.dll. Freeglut provides in addition, 
+freeglut.h, freeglut_ext.h, freeglut_std.h, freeglut.lib, and freeglut.dll.
 
 To avoid compiling these from source I suggest using a site such as
 
-\url{http://web.eecs.umich.edu/~sugih/courses/eecs487/glut-howto/}
+http://web.eecs.umich.edu/~sugih/courses/eecs487/glut-howto/
 for glut
 
 or
-\url{http://www.transmissionzero.co.uk/software/freeglut-devel/}
+http://www.transmissionzero.co.uk/software/freeglut-devel/
 for freeglut
 
 There may be hints from
@@ -61,9 +61,9 @@ http://web.eecs.umich.edu/~sugih/courses/eecs487/glut-howto/
 
 Glut header files *.h will go in a directory GL 
 try
-\begin{verbatim}
-C:\Program Files (x86)\Microsoft Visual Studio *\VC\include\GL\glut.h
-\end{verbatim}
+
+ C:\Program Files (x86)\Microsoft Visual Studio *\VC\include\GL\glut.h
+
 The '*' matches your version of VS: 12.0 for VS2013, 11.0 for VS2012, 10.0 for VS2010, 9.0 for VS2008. You may have to create the include folder.
 
 
@@ -90,13 +90,6 @@ Should run from the command line or from a folder
 
 To run you will need the Glut32.dll (or the freeglut.dll) either in the same directory as 
 brait.exe or in the windows system directory.
-
-% <>http:windowsbrait.gz windows version </a>
-% o http:brait.exe executable (brait.exe)</a>
-% o http:glut32.dll  glut32.dll</a>
-% o <>http:brait.c  brait.zip</a>
-
-
 
 
 # Other operating systems, Mac OS, Android. iOS etc
@@ -164,10 +157,8 @@ Following commands are used to change the vehicles nature
  MS Machina Speculatrix
  DUMP Dump a Matlab file
 
-% SL=savelog?
 
-% \verbatiminput{tmpcmds.txt}
-** Lowercase (mostly) single letter commands
+## Lowercase (mostly) single letter commands
 A list of keyboard commands:
  - mouse dependent commands
    - a - add a B.V. at the mouse position
@@ -175,8 +166,8 @@ A list of keyboard commands:
    - m move N.B.V. to mouse
 
  - general commands
-   - $<$ - Change selected N.C.V. to next vehicle in list 
-   - $>$ - Change selected N.C.V. to previous vehicle in list 
+   -  < - Change selected N.C.V. to next vehicle in list 
+   -  > - Change selected N.C.V. to previous vehicle in list 
    -  e - erase the selected N.C.V. 
    -  f - rotate c.c.w.
    -  g - rotate c.w.
@@ -233,5 +224,8 @@ edited into a script (.m) file.
 
 
 
-Written by William Harwin \begin{verbatim}w.s.harwin@reading.ac.uk\end{verbatim}
+Written by William Harwin
+
+w.s.harwin@reading.ac.uk
+
 Copyright 2002-2015.
